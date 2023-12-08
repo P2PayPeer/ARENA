@@ -36,7 +36,6 @@ flowchart LR;
     W --> Y["🎟️ ppv_system.py"];
     W --> Z["👕 merchandising.py"];
     W --> AA["🏧 token_system.py"];
-    W --> AB["📢 advertising.py"];
 
     A --> AC["🔧 utils/"];
     AC --> AD["📝 logger.py"];
