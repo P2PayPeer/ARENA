@@ -1,5 +1,6 @@
 # common.py
 
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def load_model(model_name):
@@ -34,3 +35,11 @@ def generate_text(model, tokenizer, prompt, max_length=50):
     outputs = model.generate(inputs['input_ids'], max_length=max_length)
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return generated_text
+
+if __name__ == '__main__':
+    model, tokenizer = load_model("gpt2")
+    prompt = ""
+    generated_text = generate_text(model, tokenizer, prompt)[len(prompt):]
+
+    print(generated_text)
+
