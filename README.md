@@ -10,8 +10,8 @@ flowchart LR;
     C --> E["🔧 llm_config.py"];
 
     A --> F["🧠 ai_modules/"];
-    F --> G["🤖 onii_maid.py"];
-    F --> H["👾 ley_ley.py"];
+    F --> G["🤖 oniimaid.py"];
+    F --> H["👾 leyley.py"];
     F --> I["🤗 common.py"];
 
     A --> J["🌐 virtual_env/"];
