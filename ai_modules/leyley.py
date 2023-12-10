@@ -10,5 +10,10 @@ class Leyley:
         return generate_text(self.model, self.tokenizer, prompt)
 
 # Usage
-# onii_maid = Leyley('model_name_here')
+# leyley = Leyley('model_name_here')
 # response = leyley.respond_to_prompt("Hello, Leyley!")
+
+# Models  
+# https://huggingface.co/Undi95/Leyley-13B
+# https://huggingface.co/Undi95/Leyley-13B-GGUF/resolve/main/Leyley-13B-09.q5_k_m.gguf
+# https://huggingface.co/Undi95/Leyley-13B-GGUF/resolve/main/Leyley-13B-09.q8_0.gguf
