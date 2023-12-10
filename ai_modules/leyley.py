@@ -1,4 +1,4 @@
-# leyley.py
+# leyley.py 
 
 from common import load_model, generate_text
 
@@ -17,4 +17,4 @@ class Leyley:
 # https://huggingface.co/Undi95/Leyley-13B
 
 # https://huggingface.co/Undi95/Leyley-13B-GGUF/resolve/main/Leyley-13B-09.q5_k_m.gguf
-# https://huggingface.co/Undi95/Leyley-13B-GGUF/resolve/main/Leyley-13B-09.q8_0.gguf
+# https://huggingface.co/Undi95/Leyley-13B-GGUF/resolve/main/Leyley-13B-09.q8_0.gguf 
